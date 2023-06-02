@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="post.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+   
+  </head>
+
+  <body>
+    <ul>
+      <li><a href="welcomepage.html">Home</a></li>
+      <li><a href="app">Feed</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="logout.html">Logout</a></li>
+    </ul>
+
+    <h1>My Profile Page</h1>
+
+    <section>
+      <div class="card">
+        <h2>Profile</h2>
+        <img src="https://via.placeholder.com/300" alt="Profile Picture" />
+        <p>Update your Bio</p>
+        <form action="/updatebio" method="POST">
+          <input type="text" id="bio" name="bio" />
+          <input type="submit" value="Update" />
+        </form>
+      </div>
+    </section>
+
+    <script></script>
+  </body>
+</html>
